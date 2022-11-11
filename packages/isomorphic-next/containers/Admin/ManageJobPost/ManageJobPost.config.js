@@ -1,0 +1,43 @@
+// TODO: delete
+export const manageJobPostData = [
+  {
+    key: '1',
+    notificationID: '01/ew/123',
+    title: 'Lorem Ipsum',
+    department: 'department',
+    dateOfOpening: '12/12/2020',
+    dateOfClosing: '20/12/2020',
+    applied: '344 Applications',
+    status: 'completed',
+  },
+  {
+    key: '2',
+    notificationID: '01/ew/123',
+    title: 'Lorem Ipsum',
+    department: 'department',
+    dateOfOpening: '12/12/2020',
+    dateOfClosing: '20/12/2020',
+    applied: '344 Applications',
+    status: 'archived',
+  },
+  {
+    key: '3',
+    notificationID: '01/ew/123',
+    title: 'Lorem Ipsum',
+    department: 'department',
+    dateOfOpening: '12/12/2020',
+    dateOfClosing: '20/12/2020',
+    applied: '344 Applications',
+    status: 'active',
+  },
+  {
+    key: '4',
+    notificationID: '01/ew/123',
+    title: 'Lorem Ipsum',
+    department: 'department',
+    dateOfOpening: '12/12/2020',
+    dateOfClosing: '20/12/2020',
+    applied: '344 Applications',
+    status: 'scheduled',
+  },
+];

@@ -1,0 +1,80 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "arrow-parens": "off",
+    "comma-dangle": ["error", "only-multiline"],
+    "consistent-return": "off",
+    "global-require": "off",
+    "indent": "off",
+    "max-len": "off",
+    "no-alert": "off",
+    "no-confusing-arrow": "off",
+    "no-console": "warn",
+    "no-shadow": "off",
+    "no-nested-ternary": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    "prefer-promise-reject-errors": "warn",
+    "prefer-template": "warn",
+    "jsx-a11y/alt-text": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/mouse-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "react/forbid-prop-types": "off",
+    "react/require-default-props": "warn",
+    "react/jsx-closing-tag-location": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-no-target-blank": "warn",
+    "react/jsx-one-expression-per-line": "off",
+    "react/no-multi-comp": ["error", { "ignoreStateless": true }],
+    "react/no-unescaped-entities": "off",
+    "react/prefer-stateless-function": "off",
+    "jsx-a11y/label-has-for": ["error", { "allowChildren": true }],
+    "react/button-has-type": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "warn",
+    "react/no-array-index-key": "off",
+    "react/jsx-curly-newline": "off",
+    "import/default": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-named-as-default": "error",
+    "import/no-unresolved": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".json"],
+        "paths": ["./"]
+      }
+    }
+  }
+}

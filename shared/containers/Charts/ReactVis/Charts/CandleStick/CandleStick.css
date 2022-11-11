@@ -1,0 +1,12 @@
+.candlestick-example {
+  width: 100%;
+}
+
+.candlestick-example .chart {
+  width: 100%;
+}
+
+.candlestick-example .dashed-example-line {
+  stroke-dasharray: 2, 2;
+}
+/*# sourceMappingURL=CandleStick.css.map */
